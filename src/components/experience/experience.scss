@@ -1,0 +1,80 @@
+$color-bg: #213555;
+$color-bg-variant: #4F709C;
+$color-primary: #E5D283;
+$color-primary-variant: #4F709C;
+$color-white: #fff;
+$color-light: #ffffff99;
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+$transition: all 400ms ease;
+#experience{
+    margin-top: 60px;
+    padding: 40px 0 ;
+}
+
+.experience-container > div{
+    background: $color-bg-variant;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: $transition;
+    &:hover{
+        background: transparent;
+        border-color: $color-primary-variant;
+        cursor: default;
+    }
+    h3{
+        text-align: center;
+        margin: 0rem;
+        padding-bottom: 3rem;
+        font-size: 24px;
+        color: $color-primary;
+    }
+}
+
+.experience-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.experience-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+// ------------Media Queries Medium Devices-------
+@media screen and (max-width: 1024px) {
+    #experience{
+        margin-top: 200px;
+    }
+    .experience-container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience_content{
+        padding: 1rem;
+    }
+}
+
+// ------------Media Queries Small Devices-------
+@media screen and (max-width: 600px) {
+    #experience{
+        margin-top: 150px;
+    }
+    .experience-container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+    }
+
+
+    
+}

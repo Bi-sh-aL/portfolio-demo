@@ -1,0 +1,44 @@
+$color-bg: #213555;
+$color-bg-variant: #4F709C;
+$color-primary: #E5D283;
+$color-primary-variant: #4F709C;
+$color-white: #fff;
+$color-light: #ffffff99;
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+$transition: all 400ms ease;
+
+
+nav{
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    a{
+        background: transparent;
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        color: $color-light;
+        font-size: 1.1rem;
+        &:hover{
+            background: rgba(0,0,0,0.3);
+        }
+        &.active{
+            background: $color-bg;
+            color: $color-white;
+
+        }
+    }
+}
+

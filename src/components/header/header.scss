@@ -1,0 +1,104 @@
+$color-bg: rgb(33, 53, 85);
+$color-bg-variant: rgb(79, 112, 156);
+$color-primary: #E5D283;
+$color-primary-variant: #4F709C;
+$color-white: #fff;
+$color-light: #ffffff99;
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+$transition: all 400ms ease;
+
+header{
+    height: 130vh;
+    padding-top: 7rem;
+    overflow: hidden;
+
+}
+.header-container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+//CTA
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+// Header Socials
+
+.header-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    &::after{
+        content: '';
+        width: 1px;
+        height: 2rem;
+        background: $color-primary;
+    }
+}
+
+//Image
+.me{
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%; height: 100%;
+        background: linear-gradient(rgba(33, 53, 85, 0.715),rgba(79, 112, 156, 0.418));
+      }
+    
+}
+
+// -------Scroll Down-------
+
+.scroll-down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+//-----------------media queries for medium devices
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+//-----------------media queries for small devices
+@media screen and (max-width: 1024px){
+    .me{
+        margin-left: 0 auto;
+    }
+    header{
+        height: 200vh;
+        padding: 100px 0px 0;
+        margin: 0 auto;
+    }
+    .header-socials, .scroll-down{
+        display: none;
+    }
+
+}
