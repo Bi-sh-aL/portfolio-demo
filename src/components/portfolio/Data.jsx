@@ -45,6 +45,13 @@ const Data = [
         title: 'Portfolio Title',
         github: 'https://github.com/Bi-sh-aL',
         demo: 'https://my-project-todolist.netlify.app/'
+    },
+    {
+        id: 7,
+        image: IMG1,
+        title: 'Portfolio Title',
+        github: 'https://github.com/Bi-sh-aL',
+        demo: 'https://my-project-todolist.netlify.app/'
     }
 ]
 
