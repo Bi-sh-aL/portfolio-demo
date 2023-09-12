@@ -3,7 +3,7 @@ import './contact.scss'
 import {MdOutlineEmail} from "react-icons/md"
 import {RiMessengerLine} from "react-icons/ri"
 import {FiPhoneCall} from "react-icons/fi"
-import emailjs from '@emailjs/browser'
+import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
