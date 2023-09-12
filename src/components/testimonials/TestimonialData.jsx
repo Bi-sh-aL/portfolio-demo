@@ -28,7 +28,13 @@ const Data=[
         avatar: AVTR2,
         name: "Jessi Pinkman",
         review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, nihil accusamus? Cumque repellendus odit provident fugit obcaecati fuga recusandae molestias! Esse eos quis sint commodi facere sunt quod cupiditate quos."
+    },
+    {
+        avatar: AVTR2,
+        name: "Ashol Karki Shrestha",
+        review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, nihil accusamus? Cumque repellendus odit provident fugit obcaecati fuga recusandae molestias! Esse eos quis sint commodi facere sunt quod cupiditate quos."
     }
+      
             
 ]
 
