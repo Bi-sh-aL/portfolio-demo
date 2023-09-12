@@ -3,7 +3,7 @@ import './contact.scss'
 import {MdOutlineEmail} from "react-icons/md"
 import {RiMessengerLine} from "react-icons/ri"
 import {FiPhoneCall} from "react-icons/fi"
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_68sb31q', 'service_68sb31q', form.current, 'nJpbsBEWYPjnT5_eP');
+    emailjs.sendForm('service_68sb31q', 'service_68sb31q', e.target, 'nJpbsBEWYPjnT5_eP');
       
     e.target.reset();
   };
