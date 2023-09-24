@@ -11,7 +11,7 @@ const Data=[
     },
     {
         avatar: AVTR2,
-        name: "Saul Goodman",
+        name: "Pratik Adhikari",
         review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, nihil accusamus? Cumque repellendus odit provident fugit obcaecati fuga recusandae molestias! Esse eos quis sint commodi facere sunt quod cupiditate quos."
     },
     {
